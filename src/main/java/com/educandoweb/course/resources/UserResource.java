@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value = "/users")
-public class UseResource {
+public class UserResource {
 
     @GetMapping
     public ResponseEntity<User> findAll() {
